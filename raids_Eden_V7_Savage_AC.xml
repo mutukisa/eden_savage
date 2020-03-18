@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+<name>共鳴編:3層</name>
+<rev>TEST1.0</rev>
+<description>
+202002280209:テスト版。TEST1.0
+AquaCatのブログをよろしくお願いします。(https://www.aquacat.work/)
+</description>
+<author>Aqua Cat,RINGS</author>
+<license>CC BY-SA</license>
+<zone>908</zone>
+<locale>JA</locale>
+<start>0039:戦闘開始！</start>
+<entry>P1</entry>
+
+<!--x秒前通知のデフォルトをセット-->
+<default target-element="Activity" target-attr="notice-o" value="-5" />
+
+<s name="P1">
+<a time="012" text="虚無の波動" sync="ダークアイドルの「虚無の波動」" notice="全体範囲" />
+<a time="019" text="闇光の釘(構え)" sync="ダークアイドルは「闇光の釘」の構え。" notice="線がつくよ" />
+<a time="024" text="闇光の釘" sync="ダークアイドルの「闇光の釘」" notice="強攻撃" />
+<a time="032" sync="リーンの声:群体の中心に、凝縮された「闇」の力を感じます！ あれが罪喰いを操っている！？" />
+<a time="039" text="波状の号令" sync="ダークアイドルの「波状の号令」" notice="波状の号令" />
+<a time="044" text="次元孔" sync="ダークアイドルの「次元孔」" notice="次元孔" />
+<a time="047" sync="リーンの声:次元に孔が開けられた……！？ 警戒してください！" />
+<a time="105" text="次元孔" sync="ダークアイドルの「次元孔」" notice="次元孔" />
+<a time="110" text="照準の号令" sync="ダークアイドルの「照準の号令」" notice="照準の号令" />
+<a time="116" text="強制転移" sync="ダークアイドルの「強制転移」" notice="転送の予告" />
+<a time="122" text="白光の槌" sync="ダークアイドルの「白光の槌」" notice="白光の槌" />
+<a time="127" text="スタン+転送" notice="転送開始" />
+<a time="140" text="虚無の波動" notice="全体範囲" />
+
+<a time="142" text="闇光の釘(構え)" sync="ダークアイドルは「闇光の釘」の構え。" notice="線がつくよ" />
+<a time="147" text="闇光の釘" sync="ダークアイドルの「闇光の釘」" notice="強攻撃" />
+
+<a time="158" text="波状の号令" sync="ダークアイドルの「波状の号令」" notice="波状の号令" />
+<a time="162" text="白夜の機動" sync="ダークアイドルの「白夜の機動」" notice="白夜の機動" />
+<a time="176" text="強制転移" sync="ダークアイドルの「強制転移」" notice="転送の予告" />
+<a time="183" text="極夜の機動" sync="ダークアイドルの「極夜の機動」" notice="極夜の機動" />
+<a time="187" text="スタン+転送" notice="転送開始" />
+<a time="230" text="移行待ち" sync="リーンの声:「闇」の力が、さらに凝縮されていきます！" goto="P2" sync-s="-40" />
+</s>
+
+<s name="P2">
+<!--雑魚フェーズ-->
+<!--a time="000" sync="リーンの声:「闇」の力が、さらに凝縮されていきます！/-->
+<a time="013" text="破滅の濁流" sync="ブラスヒームは「破滅の濁流」の構え。" notice="破滅の濁流。" />
+<a time="023" text="破滅の光" sync="アイドラトリーの「破滅の光」" notice="破滅の光。" />
+<a time="030" text="光の飽和" sync="アイドラトリーは「光の飽和」の構え。" notice="光の飽和。" />
+<a time="031" text="破滅の濁流" sync="ブラスヒームは「破滅の濁流」の構え。" notice="破滅の濁流。" />
+<a time="041" text="破滅の濁流" sync="ブラスヒームは「破滅の濁流」の構え。" notice="破滅の濁流。" />
+<a time="046" text="破滅の光" sync="アイドラトリーの「破滅の光」" notice="破滅の光。" />
+<a time="055" text="強制転移" sync="ダークアイドルの「強制転移」" notice="転送の予告" />
+<a time="059" text="攻撃機動" sync="アイドラトリーの「攻撃機動」" notice="攻撃機動" />
+<a time="066" text="スタン+転送" notice="転送開始" />
+<a time="069" text="破滅の光" sync="アイドラトリーの「破滅の光」" notice="破滅の光。" />
+<a time="079" text="破滅の濁流" sync="ブラスヒームは「破滅の濁流」の構え。" notice="破滅の濁流。" />
+<a time="083" text="攻撃機動" sync="アイドラトリーの「攻撃機動」" notice="攻撃機動" />
+<a time="093" text="破滅の光" sync="アイドラトリーの「破滅の光」" notice="破滅の光。" />
+<a time="100" text="爆散開始" sync="アイドラトリーは「爆散」の構え。" notice="自爆開始" />
+
+<!--雑魚の終了待ち開始-->
+<a time="110" text="防衛本能6" sync="ブラスヒームの「防衛本能」" notice="防衛本能。" sync-count="1" />
+<a time="112" text="防衛本能5" />
+<a time="114" text="防衛本能4" />
+<a time="116" text="防衛本能3" />
+<a time="118" text="防衛本能2" />
+<a time="120" text="防衛本能1" />
+<a time="122" text="爆散開始" sync="ブラスヒームは「爆散」の構え。" notice="自爆開始" />
+<a time="140" text="移行待ち" sync="リーンの声:また何か仕掛けてきます！" goto="P3" sync-s="-40" />
+</s>
+
+<s name="P3">
+<!--a time="000" sync="リーンの声:また何か仕掛けてきます！" /-->
+<a time="004" text="属性変動" sync="ダークアイドルの「属性変動」" notice="属性変動" />
+<a time="006" sync="リーンの声:こ、これは……！ エーテルバランスが極端に偏り始めています！" />
+<a time="009" text="強襲の号令" sync="ダークアイドルの「強襲の号令」" notice="強襲の号令" />
+<a time="025" text="包囲の号令" sync="ダークアイドルの「包囲の号令」" notixe="包囲の号令" />
+<a time="032" text="effect 突進標的" notice="線が付くよ" />
+<a time="039" text="effect スタン" />
+<a time="046" text="強襲の号令" sync="ダークアイドルの「強襲の号令」" notice="強襲の号令" />
+
+<a time="069" text="属性変動" sync="ダークアイドルの「属性変動」" notice="属性変動" />
+<a time="072" text="次元孔" sync="ダークアイドルの「次元孔」" notice="次元孔" />
+<a time="077" text="夜襲の号令" sync="ダークアイドルの「夜襲の号令」" notice="夜襲の号令" />
+<a time="087" text="攻撃" />
+<a time="090" text="AoE" />
+<a time="096" text="攻撃" />
+<a time="100" text="黎明の機動" sync="ダークアイドルの「黎明の機動」" notice="黎明の機動" />
+<a time="105" text="突撃" />
+<a time="108" text="AoE" />
+<a time="113" text="突撃" />
+<a time="126" text="虚無の波動" sync="ダークアイドルの「虚無の波動」" notice="虚無の波動" />
+
+<a time="129" text="闇光の釘(構え)" sync="ダークアイドルは「闇光の釘」の構え。" notice="線がつくよ" />
+<a time="134" text="闇光の釘" sync="ダークアイドルの「闇光の釘」" notice="強攻撃" />
+<!--竜巻開始-->
+<a time="153" sync="リーンの声:周囲の罪喰いたちが、 全部集まってきているようです……！" />
+<a time="158" text="群体突進" sync="ダークアイドルの「群体突進」" notice="ノックバック" />
+<a time="168" text="属性変動" sync="ダークアイドルの「属性変動」" notice="属性変動" />
+<a time="174" text="乱舞の号令" sync="ダークアイドルの「乱舞の号令」" notice="乱舞の号令" />
+<a time="207" text="三重光環" sync="ダークアイドルの「三重光環」" />
+<a time="213" text="三重光環" sync="ダークアイドルの「三重光環」" />
+<a time="218" text="三重光環" sync="ダークアイドルの「三重光環」" />
+<a time="227" text="虚無の波動" sync="ダークアイドルの「虚無の波動」" notice="虚無の波動" />
+<a time="236" text="虚無の波動" sync="ダークアイドルの「虚無の波動」" notice="虚無の波動" />
+
+<a time="246" text="属性変動" sync="ダークアイドルの「属性変動」" notice="属性変動" />
+<a time="252" text="乱舞の号令" sync="ダークアイドルの「乱舞の号令」" notice="乱舞の号令" />
+<a time="285" text="三重光環" sync="ダークアイドルの「三重光環」" />
+<a time="291" text="三重光環" sync="ダークアイドルの「三重光環」" />
+<a time="296" text="三重光環" sync="ダークアイドルの「三重光環」" />
+<a time="305" text="虚無の波動" sync="ダークアイドルの「虚無の波動」" notice="虚無の波動" />
+<a time="314" text="虚無の波動" sync="ダークアイドルの「虚無の波動」" notice="虚無の波動" />
+<a time="320" text="時間切れ調査中" />
+</s>
+</timeline>
