@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+<name>共鳴編:1層</name>
+<rev>TEST1.0</rev>
+<description>
+2020022713555:仮作成。動作未チェック。TEST1.0
+AquaCatのブログをよろしくお願いします。(https://www.aquacat.work/)
+</description>
+<author>Aqua Cat,RINGS</author>
+<license>CC BY-SA</license>
+<zone>906</zone>
+<locale>JA</locale>
+<start>0039:戦闘開始！</start>
+<entry>TL</entry>
+
+ 
+
+<!--x秒前通知のデフォルトをセット-->
+<default target-element="Activity" target-attr="notice-o" value="-5" /><s name="TL">
+
+
+<a time="006" sync="ラムウ:我が雷からは、いかなる者も逃れられぬ……！" />
+<a time="006" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷" />
+<a time="018" sync="ラムウ:来たれ、雷槍……！" />
+<a time="022" text="武具生成" sync="ラムウの「武具生成」" notice="武具生成。" />
+<a time="029" text="裁きの界雷" sync="ラムウは「裁きの界雷」の構え。" notice="裁きの界雷。" />
+<a time="038" sync="ラムウ:我が使いよ、饗宴の時間ぞ……！ 存分に喰らうが良い！" />
+<a time="043" text="分離体生成" sync="ラムウの「分離体生成」" notice="分離体生成。" />
+<a time="049" sync="ラムウ:雷喰らいて圧を高めん……！" />
+<a time="053" text="チャージボルト" sync="ラムウの「チャージボルト」" notice="チャージボルト。" />
+<a time="057" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<a time="070" text="ショックブラスト" sync="ライデンの「ショックブラスト」" notice="ショックブラスト" />
+<a time="074" text="痛打" sync="ラムウの「痛打」" notice="痛打" />
+<a time="080" text="雷雲生成" sync="ラムウの「雷雲生成」" notice="雷雲生成" />
+<a time="086" text="effect 雷神の呪い" notice="雷神の呪い" />
+<a time="090" text="落雷" sync="積乱雲の「落雷」" notice="落雷。" sync-interval="30" />
+<a time="096" text="ライトニングフォース" sync="ラムウの「ライトニングフォース」" notice="ノックバック" />
+<!--ランダムチャージ-->
+<a time="111" text="(ランダム)チャージボルト" notice="チャージボルト確認" />
+<a time="111" text="雷雲終了" />
+<a time="118" text="思念体生成" sync="ラムウの「思念体生成」" notice="思念体生成" />
+<a time="122" text="デッドリーディスチャージ" sync="ラムウ・ミラージュは「デッドリーディスチャージ」の構え。" notice="デッドリーディスチャージ。" />
+<a time="124" text="ギャロップ" sync="イクシオン・ミラージュは「ギャロップ」の構え。" notice="ギャロップ。" />
+<a time="138" text="痛打" sync="ラムウの「痛打」" />
+<a time="142" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<a time="156" text="チャージボルト" sync="ラムウの「チャージボルト」" notice="チャージボルト" />
+<a time="158" sync="ラムウ:集え雷雲、雷を乱れ撃て……！" notice="散開準備" />
+<a time="164" text="サンダーストーム" sync="ラムウの「サンダーストーム」" notice="サンダーストーム" />
+<a time="190" text="分離体生成" sync="ラムウの「分離体生成」" notice="鳥がポップ" />
+<a time="199" text="痛打" sync="ラムウの「痛打」" notice="痛打" />
+<a time="204" sync="ラムウ:雷の軌道は変幻自在……逃げ惑え……！" />
+<a time="205" text="ステップトリーダー" sync="ラムウは「ステップトリーダー」の構え。" notice="ステップトリーダー。" />
+<a time="215" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<a time="217" text="ショックブラスト" sync="ライデンの「ショックブラスト」" notice="ショックブラスト" />
+
+<!--XIVボルト1-->
+<a time="231" text="フォーティーン・チャージボルト" sync="ラムウの「フォーティーン・チャージボルト」" notice="14ボルト" />
+<a time="240" sync="ラムウ:響き渡るは、十四の雷鳴……！ その身を焦がし、己の非力さを知るが良い！" />
+<a time="245" text="武具生成" sync="ラムウの「武具生成」" notice="裁きの熱雷。" />
+<a time="254" text="思念体生成" sync="ラムウの「思念体生成」" notice="思念体生成" />
+<a time="257" text="セントールチャージ" sync="ラムウは「セントールチャージ」の構え。" notice="セントールチャージ。" />
+<a time="263" text="ギャロップ" sync="イクシオン・ミラージュは「ギャロップ」の構え。" notice="ギャロップ。" />
+<a time="276" sync="ラムウ:ファファファ、久方ぶりの戦い…… 我が技もさえてきよったわ！" />
+<a time="280" text="チャージボルト" sync="ラムウの「チャージボルト」" notice="チャージボルト" />
+<a time="283" text="ステップトリーダー" sync="ラムウは「ステップトリーダー」の構え。" notice="ステップトリーダー。" />
+<a time="292" sync="ラムウ:雷とは連なるものと知るがいい……！" notice="チェイン準備" />
+<a time="298" text="チェインライトニング" sync="ラムウの「チェインライトニング」" notice="チェインライトニング" />
+<a time="306" text="痛打" sync="ラムウの「痛打」" notice="痛打" />
+<a time="311" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<a time="330" text="分離体生成" sync="ラムウの「分離体生成」" notice="鳥がポップ" />
+<a time="338" text="チャージボルト" sync="ラムウの「チャージボルト」" notice="チャージボルト" />
+<a time="347" text="サンダーストーム" sync="ラムウの「サンダーストーム」" notice="サンダーストーム" />
+<a time="357" text="ショックブラスト" sync="ライデンの「ショックブラスト」" notice="ショックブラスト" />
+<a time="363" text="ステップトリーダー" sync="ラムウは「ステップトリーダー」の構え。" notice="ステップトリーダー。" />
+<a time="381" text="痛打" sync="ラムウの「痛打」" notice="痛打" />
+<a time="382" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+
+<!--XIVボルト2-->
+<a time="396" text="フォーティーン・チャージボルト" sync="ラムウの「フォーティーン・チャージボルト」" notice="14ボルト" />
+<a time="412" text="武具生成" sync="ラムウの「武具生成」" notice="武具生成" />
+<a time="416" sync="ラムウ:審判の時は近い…… 集え、裁断者たちよ！" />
+<a time="421" text="思念体生成" sync="ラムウの「思念体生成」" notice="思念体生成" />
+<a time="424" sync="ラムウ:ファファファ、心躍る戦いよ……！ 我とて駆け抜けたくなるが、文句は言うまいな！" />
+<a time="424" text="セントールチャージ" sync="ラムウは「セントールチャージ」の構え。" notice="セントールチャージ。" />
+<a time="430" text="ギャロップ" sync="イクシオン・ミラージュは「ギャロップ」の構え。" notice="ギャロップ。" />
+<a time="441" text="チャージボルト" sync="ラムウの「チャージボルト」" notice="チャージボルト" />
+<a time="444" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<a time="461" text="雷雲生成" sync="ラムウの「雷雲生成」" notice="雷雲生成" />
+<a time="467" text="effect 雷神の呪い" notice="雷神の呪い" />
+<a time="471" text="落雷" sync="積乱雲の「落雷」" notice="落雷。" sync-interval="30" />
+<a time="477" text="ライトニングフォース" sync="ラムウの「ライトニングフォース」" notice="ノックバック" />
+<a time="481" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<a time="493" text="雷雲終了" />
+<a time="503" text="チェインライトニング" sync="ラムウの「チェインライトニング」" notice="チェインライトニング" />
+<a time="511" text="痛打" sync="ラムウの「痛打」" notice="痛打" />
+<a time="517" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<!--ランダムチャージ-->
+<a time="527" text="(ランダム)チャージボルト" notice="チャージボルト確認" />
+<a time="534" text="ステップトリーダー" sync="ラムウは「ステップトリーダー」の構え。" notice="ステップトリーダー。" />
+<!--範囲連打フェーズ-->
+<a time="547" text="チャージボルト" sync="ラムウの「チャージボルト」" notice="チャージボルト" />
+<a time="549" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<a time="560" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<a time="575" text="チャージボルト" sync="ラムウの「チャージボルト」" notice="チャージボルト" />
+<a time="577" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+<a time="589" text="裁きの熱雷" sync="ラムウは「裁きの熱雷」の構え。" notice="裁きの熱雷。" />
+
+<!--XIVボルト3 正確な時間切れは調査中-->
+<a time="614" text="フォーティーン・チャージボルト" sync="ラムウは「フォーティーン・チャージボルト」の構え。" notice="フォーティーン・チャージボルト。" />
+<a time="620" text="武具生成" sync="ラムウの「武具生成」" notice="武具生成" />
+<a time="630" text="時間切れ" />
+</s>
+</timeline>
