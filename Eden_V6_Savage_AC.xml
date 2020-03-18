@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+<name>共鳴編:2層</name>
+<rev>TEST1.0</rev>
+<description>
+202002271555:仮作成。動作未チェック。TEST1.0
+AquaCatのブログをよろしくお願いします。(https://www.aquacat.work/)
+</description>
+<author>Aqua Cat,RINGS</author>
+<license>CC BY-SA</license>
+<zone>907</zone>
+<locale>JA</locale>
+<start>0039:戦闘開始！</start>
+<entry>TL</entry>
+
+<!--x秒前通知のデフォルトをセット-->
+<default target-element="Activity" target-attr="notice-o" value="-5" />
+
+<s name="TL">
+<!--ガル-->
+<a time="018" text="スーパーストーム" sync="ガルーダの「スーパーストーム」" notice="全体攻撃" />
+<a time="027" text="オクルーデッドフロント" sync="ガルーダの「オクルーデッドフロント」" />
+<a time="039" text="フューリアスストーム" sync="ガルーダの「フューリアスストーム」" notice="DPSの線処理" />
+<a time="047" text="エアーバンプ" notice="ペアで処理" />
+<a time="063" text="フィアスストーム" sync="ガルーダの「フィアスストーム」" notice="フィアスストーム" />
+<a time="070" text="ダウンバースト" sync="ガルーダ starts using ダウンバースト" notice="ノックバック" />
+<a time="076" text="エアーバンプ" notice="ペアで処理" />
+<a time="088" text="バキュームスラッシュ" sync="ガルーダの「バキュームスラッシュ」" notice="バキュームスラッシュ" />
+<a time="095" text="オクルーデッドフロント" sync="ガルーダの「オクルーデッドフロント」" />
+<a time="103" text="フューリアスストーム" sync="ガルーダの「フューリアスストーム」" notice="DPSの線処理" />
+<a time="110" text="フィアスストーム" sync="ガルーダの「フィアスストーム」" notice="フィアスストーム" />
+<a time="112" sync="ガルーダ:おのれ……ちょこまかとッ……！" />
+<!--イフ-->
+<a time="117" sync="イフリート:神色自若……下がるがいい……！" />
+<a time="118" text="タッチダウン" notice="タッチダウン。" />
+<a time="136" text="火炎拳" sync="イフリートの「火炎拳」" notice="タンクスイッチ" />
+<a time="144" text="爆裂炎" sync="イフリートの「爆裂炎」" notice="爆裂炎" />
+<a time="149" text="メテオストライク" sync="イフリートの「メテオストライク」" notice="メテオストライク" />
+<a time="160" text="灼熱の咆哮" sync="イフリートの「灼熱の咆哮」" notice="全体攻撃" />
+<a time="174" text="業炎拳" sync="イフリートの「業炎拳」" notice="線を処理" />
+<a time="186" text="ファイアスパーク" sync="イフリートの「ファイアスパーク」" notice="火球がポップ" />
+<a time="189" text="陽炎召喚" sync="イフリートの「陽炎召喚」" notice="分身がポップ" />
+<a time="196" text="エラプション" notice="エラプション。" />
+<a time="217" text="業炎拳" sync="イフリートの「業炎拳」" notice="線を処理" />
+<a time="226" text="火炎拳" sync="イフリートの「火炎拳」" notice="タンクスイッチ" />
+<a time="234" text="爆裂炎" sync="イフリートの「爆裂炎」" notice="爆裂炎" />
+<a time="238" text="メテオストライク" sync="イフリートの「メテオストライク」" notice="メテオストライク" />
+<a time="241" text="イフリート:駄菓子菓子ッ" sync="イフリート:才気煥発……認めよう、その力……！ だがしかしッ！" />
+<!--2体-->
+<a time="246" sync="ガルーダ:火と風を喚びしこと、 その愚行を後悔させてくれる……！" />
+<a time="250" text="焔神の呪い" sync="イフリートの「焔神の呪い」" />
+<a time="250" text="嵐神の呪い" />
+<a time="255" text="オクルーデッドフロント" sync="ガルーダの「オクルーデッドフロント」" />
+<a time="261" text="ウィンドカッター" notice="ウィンドカッター。" />
+<a time="267" text="火炎拳" sync="イフリートの「火炎拳」" notice="火炎拳" />
+<a time="275" text="爆裂炎" sync="イフリートの「爆裂炎」" notice="爆裂炎" />
+<a time="278" text="バキュームスラッシュ" sync="ガルーダの「バキュームスラッシュ」" notice="バキュームスラッシュ" />
+<a time="279" text="メテオストライク" sync="イフリートの「メテオストライク」" notice="メテオストライク" />
+<a time="281" text="陽炎召喚" sync="イフリートの「陽炎召喚」" notice="分身がポップ" />
+<a time="285" text="オクルーデッドフロント" sync="ガルーダの「オクルーデッドフロント」" />
+<a time="291" text="エラプション" notice="エラプション。" />
+<a time="299" text="フィアスストーム" sync="ガルーダの「フィアスストーム」" notice="フィアスストーム" />
+<a time="301" sync="イフリート:魂飛魄散……まだ抗おうとは……！" />
+<a time="306" sync="ガルーダ:ならば、わたくしの風の力…… 燃え上がる焔神の炎に注ぐまで！" />
+<!--＼( 'ω')／ウオオオオオアアアーーーッ！-->
+<a time="317" sync="？？？？:ウオォォォォォッ！！" notice="ウオオオオオアアアーーーッ！" notice-o="0" />
+<a time="328" sync="ラクタパクシャ:我が名はラクタパクシャ…… 「赤き翼」を持つ者なり……！" />
+<a time="346" text="業炎拳" sync="ラクタパクシャの「業炎拳」" notice="線を処理" sync-s="-5" sync-e="5" />
+<a time="364" text="業炎拳" sync="ラクタパクシャの「業炎拳」" notice="線を処理" sync-s="-5" sync-e="5" />
+<a time="379" text="灼熱の咆哮" sync="ラクタパクシャの「灼熱の咆哮」" notice="全体攻撃" />
+<a time="386" text="エアーバンプ" notice="ペアで処理" />
+<a time="388" text="フィアスストーム" sync="ラクタパクシャの「フィアスストーム」" notice="フィアスストーム" />
+<a time="396" text="ファイアスパーク" sync="ラクタパクシャの「ファイアスパーク」" notice="火球がポップ" />
+<a time="400" text="陽炎召喚" sync="ラクタパクシャの「陽炎召喚」" notice="分身がポップ" />
+<a time="407" text="エラプション" notice="エラプション。" />
+<a time="413" text="火炎拳" sync="ラクタパクシャの「火炎拳」" notice="タンクスイッチ" />
+<a time="421" text="爆裂炎" sync="ラクタパクシャの「爆裂炎」" notice="爆裂炎" />
+<a time="426" text="メテオストライク" sync="ラクタパクシャの「メテオストライク」" notice="メテオストライク" />
+<a time="442" sync="ラクタパクシャ:風を得て、猛る炎よ、渦を巻け！" />
+<!--＼( 'ω')／ウオオオオオアアアーーーッ！(クソ長詠唱)-->
+<a time="442" text="コンフラグレーションストライク" sync="ラクタパクシャは「コンフラグレーションストライク」の構え。" notice="コンフラ開始" />
+<a time="447" text="光輝の炎柱" notice="光輝の炎柱。" />
+<a time="448" text="effect 煉獄の鎖" />
+<a time="458" text="ウィンドカッター" notice="ウィンドカッター。" />
+<a time="461" text="ウィンドカッター" notice="ウィンドカッター。" />
+<a time="464" text="ウィンドカッター" notice="ウィンドカッター。" />
+<a time="475" text="エアーバンプ" notice="ペアで処理" />
+<!--a time="478" sync="ラクタパクシャ:大火の一撃、灰燼に帰せッ！" /-->
+<a time="478" text="コンフラグレーションストライク" sync="ラクタパクシャの「コンフラグレーションストライク」" notice="背面安置" />
+<a time="492" text="オクルーデッドフロント" sync="ラクタパクシャの「オクルーデッドフロント」" />
+<a time="497" text="エアーバンプ" notice="ペアで処理" />
+<a time="504" text="フューリアスストーム" sync="ラクタパクシャの「フューリアスストーム」" notice="DPSの線処理" />
+<a time="512" text="灼熱の咆哮" sync="ラクタパクシャの「灼熱の咆哮」" notice="全体攻撃" />
+<a time="522" text="オクルーデッドフロント" sync="ラクタパクシャの「オクルーデッドフロント」" />
+<a time="533" text="業炎拳" sync="ラクタパクシャの「業炎拳」" notice="線を処理" />
+<a time="549" text="エアーバンプ" notice="エアーバンプ。" />
+<a time="551" text="業炎拳" sync="ラクタパクシャの「業炎拳」" notice="線を処理" />
+<a time="559" text="火炎拳" sync="ラクタパクシャの「火炎拳」" notice="タンクスイッチ" />
+<a time="567" text="爆裂炎" sync="ラクタパクシャの「爆裂炎」" notice="爆裂炎" />
+<a time="572" text="メテオストライク" sync="ラクタパクシャの「メテオストライク」" notice="メテオストライク" />
+<a time="588" text="フィアスストーム" sync="ラクタパクシャの「フィアスストーム」" notice="全体攻撃" />
+<a time="596" text="フィアスストーム" sync="ラクタパクシャの「フィアスストーム」" notice="全体攻撃" />
+<a time="609" text="時間切れ開始" sync="ラクタパクシャ:地をうごめく者どもよ……！" notice="時間切れ詠唱開始" />
+<!--a time="609" text="コンフラグレーションストライク" sync="ラクタパクシャは「コンフラグレーションストライク」の構え。" notice="コンフラグレーションストライク。" /-->
+</s>
+</timeline>
