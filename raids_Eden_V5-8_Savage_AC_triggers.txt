@@ -54,4 +54,4 @@ E8S
 聖竜の爪(首に当たる)
 ^1A:<id8>:<me> gains the effect of 聖竜の爪 from .*? for (?<duration>[0-9\.]+) Seconds
 聖竜の牙(解呪を取る)
-1A:<id8>:<me> gains the effect of 聖竜の牙 from .*? for (?<duration>[0-9\.]+) Seconds
+^1A:<id8>:<me> gains the effect of 聖竜の牙 from .*? for (?<duration>[0-9\.]+) Seconds
